@@ -1,6 +1,6 @@
 import style from "./Hero.module.css";
 import { Icon } from "@iconify/react";
-import Image from "./HeroImage.webp";
+import Image from "./Heroimage.webp";
 import Colabs from "../Colaborators/Colaborators.module.css";
 const Hero = () => {
   const link = import.meta.env.VITE_URL_FORMULARIO;
