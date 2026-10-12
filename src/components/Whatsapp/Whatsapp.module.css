@@ -1,0 +1,25 @@
+#wp {
+  position: fixed;
+  right: calc(5dvw - 1rem);
+  top: calc(75dvh + 9rem);
+  background-color: #25d366;
+  color: snow;
+  aspect-ratio: 1/1;
+  padding: 0.5rem;
+  border-radius: 50%;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.25rem 0 rgba(116, 116, 125, 0.3);
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1);
+  }
+  svg {
+    width: auto;
+    aspect-ratio: 1/1;
+    height: 2rem;
+  }
+}

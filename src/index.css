@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+:root {
+  --color-deep-navy-50: #e9edfb;
+  --color-deep-navy-100: #d4dbf7;
+  --color-deep-navy-200: #a8b8f0;
+  --color-deep-navy-300: #7d94e8;
+  --color-deep-navy-400: #5271e0;
+  --color-deep-navy-500: #264dd9;
+  --color-deep-navy-600: #1f3ead;
+  --color-deep-navy-700: #172e82;
+  --color-deep-navy-800: #0f1f57;
+  --color-deep-navy-900: #080f2b;
+  --color-deep-navy-950: #050b1e;
+
+  --color-imperial-blue-50: #e9eefb;
+  --color-imperial-blue-100: #d4ddf7;
+  --color-imperial-blue-200: #a8baf0;
+  --color-imperial-blue-300: #7d98e8;
+  --color-imperial-blue-400: #5275e0;
+  --color-imperial-blue-500: #2653d9;
+  --color-imperial-blue-600: #1f42ad;
+  --color-imperial-blue-700: #173282;
+  --color-imperial-blue-800: #0f2157;
+  --color-imperial-blue-900: #08112b;
+  --color-imperial-blue-950: #050c1e;
+
+  --color-steel-blue-50: #e9f4fc;
+  --color-steel-blue-100: #d3e8f8;
+  --color-steel-blue-200: #a6d1f2;
+  --color-steel-blue-300: #7abaeb;
+  --color-steel-blue-400: #4ea3e4;
+  --color-steel-blue-500: #218cde;
+  --color-steel-blue-600: #1b70b1;
+  --color-steel-blue-700: #145485;
+  --color-steel-blue-800: #0d3859;
+  --color-steel-blue-900: #071c2c;
+  --color-steel-blue-950: #05141f;
+
+  --color-blue-bell-50: #e8f6fd;
+  --color-blue-bell-100: #d0edfb;
+  --color-blue-bell-200: #a1dcf7;
+  --color-blue-bell-300: #72caf3;
+  --color-blue-bell-400: #43b8ef;
+  --color-blue-bell-500: #14a7eb;
+  --color-blue-bell-600: #1085bc;
+  --color-blue-bell-700: #0c648d;
+  --color-blue-bell-800: #08435e;
+  --color-blue-bell-900: #04212f;
+  --color-blue-bell-950: #031721;
+
+  --color-platinum-50: #f8f8fa;
+  --color-platinum-100: #d5e3f6;
+  --color-platinum-200: #abc8ed;
+  --color-platinum-300: #82ace3;
+  --color-platinum-400: #5890da;
+  --color-platinum-500: #2e75d1;
+  --color-platinum-600: #255da7;
+  --color-platinum-700: #1c467d;
+  --color-platinum-800: #122f54;
+  --color-platinum-900: #09172a;
+  --color-platinum-950: #06101d;
+
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --light: 200;
+  --medium: 300;
+  --regular: 400;
+  --bold: 700;
+  --black: 900;
+
+  --color-renatec: teal;
+  --color-reintec: crimson;
+  --color-feintec: navy;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-manrope);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-jakarta);
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--color-platinum-50);
+}
+
+#app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+fieldset,
+input,
+textarea,
+select,
+button {
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+html,
+body,
+#app {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
