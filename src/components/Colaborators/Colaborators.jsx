@@ -2,7 +2,7 @@ import style from "./Colaborators.module.css";
 import { Icon } from "@iconify/react";
 import Rena from "./renatec-logo.jpg";
 import Rein from "./reintec-logo.jpg";
-import Fein from "./Feintec.png";
+import Fein from "./feintec.png";
 import Asatec from "./AsatecColab.png";
 import Asotec from "./asotec.webp";
 
