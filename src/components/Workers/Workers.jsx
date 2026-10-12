@@ -1,5 +1,5 @@
 import style from "./Workers.module.css";
-import Od from "./Od.svg";
+import Od from "./OD.svg";
 import Procel from "./procel.jpg";
 import Todocelu from "./Todocelu.jpeg";
 import Wuzip from "./Wuzip.jpg";
